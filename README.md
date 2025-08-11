@@ -1,6 +1,6 @@
 # Mcp Report
 
-This repository contains all the code discussed in my medium article [Running an MCP Server and Client locally with Ollama](htttp://test.com)
+This repository contains all the code discussed in my medium article [Running an MCP Server and Client locally with Ollama](https://medium.com/@alcbotta/running-an-mcp-server-and-client-locally-with-ollama-b8b4c098c7fb)
 
 To run the application, you first need to build and run the Docker image for backend app by following the instructions on the [Backend README.md](./backend/README.md)
 

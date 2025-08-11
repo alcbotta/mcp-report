@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "reports": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--add-host",
+        "host.docker.internal:host-gateway",
+        "-e",
+        "REPORTS_API_BASE_URL=http://host.docker.internal:8087/api/v1/reports",
+        "mcp-server-reports"
+      ]
+    }
+  }
+}
